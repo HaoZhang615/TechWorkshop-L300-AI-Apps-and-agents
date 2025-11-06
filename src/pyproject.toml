@@ -1,0 +1,36 @@
+[project]
+name = "src"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk[sqlite]==0.3.8",
+    "azure-ai-agents==1.2.0b5",
+    "azure-ai-evaluation[redteam]==1.12.0",
+    "azure-ai-inference==1.0.0b9",
+    "azure-ai-projects==1.1.0b4",
+    "azure-core-tracing-opentelemetry==1.0.0b12",
+    "azure-cosmos==4.9.0",
+    "azure-identity==1.25.1",
+    "azure-kusto-data==5.0.5",
+    "azure-monitor-opentelemetry==1.8.1",
+    "azure-search-documents==11.6.0",
+    "fastapi==0.119.0",
+    "numpy==2.2.6",
+    "openai==2.3.0",
+    "opencv-python==4.12.0.88",
+    "opentelemetry-instrumentation-openai-v2==2.1b0",
+    "opentelemetry-sdk==1.37.0",
+    "orjson==3.11.3",
+    "pandas==2.3.3",
+    "pillow==11.3.0",
+    "pyodbc==5.2.0",
+    "python-dotenv==1.1.1",
+    "requests==2.32.5",
+    "semantic-kernel==1.37.0",
+    "sqlalchemy==2.0.44",
+    "sse-starlette==3.0.2",
+    "starlette==0.48.0",
+    "uvicorn[standard]==0.37.0",
+]
